@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>About us FLY</title>
+</head>
+<body>
+    <header class="about-header">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">FLY</a>
+            </div>
+            <nav>
+                <ul id="menuList">
+                    <li class="link">
+                        <a href="index.html" style="text-decoration: none;">Home</a>
+                    </li>
+                    <li class="link">
+                        <a href="#" style="text-decoration: none;">About</a>
+                    </li>
+                    <li class="link">
+                        <a href="contact.html" style="text-decoration: none;">Contact</a>
+                    </li>
+                    <li class="link">
+                        <a href="login.html" style="text-decoration: none;">Login</a>
+                    </li>
+                </ul>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                </div>
+            </nav>
+        </div>
+        <section class="about-container">
+        <div class="about">
+            <div class="about-content">
+                <div class="slide">
+                    <img src="./assest/Aniket Image .png" alt="" class="image">
+                    <p>As a web developer, I am currently in the process of creating this website using HTML, CSS, and JavaScript. I have supplemented my learning by watching some video tutorials on YouTube and have utilized AI code chat to address certain errors during the development process.</p>
+
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+
+                    <div class="details">
+                        <span class="name">Aniket Deb</span>
+                        <span class="job">Web Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </header>
+
+    <footer class="footer">
+        <div class="footerContainer">
+            This  website is powered by
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-js"></i>
+        </div>
+        <div class="style-by">
+            &copy; FLY, Designed by Aniket Deb
+        </div>
+    </footer>
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "300px";
+        }
+        else{
+            menuList.style.maxHeight = "0px";
+        }
+        }
+    </script>
+</body>
+</html>
