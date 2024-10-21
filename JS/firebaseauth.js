@@ -4,7 +4,7 @@
  import{getFirestore, setDoc, doc} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
  
  const firebaseConfig = {
-    apiKey: "AIzaSyBfbfG589GioK5oLI3rH45B6owuQbUwFWA",
+    apiKey: "AIzaSyAD4cIao8PanDY3cfYRpQGDaF5dpCxo9DM",
     authDomain: "login-form-c1533.firebaseapp.com",
     projectId: "login-form-c1533",
     storageBucket: "login-form-c1533.appspot.com",
