@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./CSS/home.css">
+</head>
+<body>
+
+  <div class="srch-container">
+    <div class="booking-nav">
+      <span>One Way</span>
+      <span>Round Trip</span>
+    </div>
+      <div class="srch-form">
+      <form class="flightForm" action="">
+        <div class="input-cont">
+        <label for="departure">From</label>
+          <select id="departure">
+              <option value="">Select City</option>
+              <option value="IXB">Bagdogra</option>
+              <option value="CCU">Kolkata</option>
+              <option value="BOM">Mumbai</option>
+              <option value="DEL">Delhi</option>
+          </select>
+        </div>
+        <div class="input-cont">
+          <label for="destination">To</label>
+          <select id="destination">
+              <option value="">Select City</option>
+              <option value="SHJ">Sharjah</option>
+              <option value="DPS">Bali</option>
+              <option value="BKK">Bangkok</option>
+              <option value="DXB">Dubai</option>
+          </select>
+        </div>
+        <div class="input-cont">
+          <label for="date">Travel Date</label>
+          <input type="date" id="date" style="padding-left: 3%; font-size: 15px">
+        </div>
+        <div class="input-cont">
+          <label for="number">Passengers</label>
+          <input type="number" id="number" style="padding-left: 3%; font-size: 15px">
+        </div>
+          <button type="submit" class="search-btn">Search Flights</button>
+      </form>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

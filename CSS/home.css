@@ -1,0 +1,219 @@
+
+body{
+  padding:30px;
+  background:linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+h1{
+  text-align: start;
+  font-family: sans-serif;
+}
+div{
+  font-size: 2rem;
+  font-weight:400;
+  color:rgb(12,11,11);
+  margin-bottom: 2rem;
+}
+/* Aniket's CSS */
+
+.flt-cont{
+  gap: 50px;
+  margin: 0px 100px;
+  padding: 0px;
+  display: flex;
+  width: auto;
+  height: auto;
+}
+.flt-head{
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+.flt-head h3{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.flt-head p{
+  font-size: 20px;
+  font-family: math;
+}
+.slider {
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  margin: auto;
+}
+.slides {
+  gap: 2rem;
+  display: flex;
+  width: 100%;
+  animation: slide 16s infinite;
+}
+@keyframes slide {
+  0%{ 
+    transform: translateX(0); 
+  }
+  25%{ 
+    transform: translateX(0); 
+  }
+  30%{ 
+    transform: translateX(-100%); 
+  }
+  50%{ 
+    transform: translateX(-100%); 
+  }
+  55%{ 
+    transform: translateX(-200%); 
+  }
+  80%{ 
+    transform: translateX(-300%); 
+  }
+  100%{ 
+    transform: translateX(-300%); 
+  }
+}
+.flt-cont img{
+  border-radius: 20px;
+  width: 50%;
+  height: 210px;
+}
+.srch-container{
+  margin: 25px;
+  padding: 0;
+  background-color: black;
+  height: 220px;
+  border-radius: 1rem;
+}
+.srch-container .booking-nav{
+  margin: 0;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-family: sans-serif;
+}
+.srch-container .booking-nav span{
+  font-size: 20px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight:600;
+}
+.srch-form .flightForm{
+  gap: 3rem;
+  margin: 0px 50px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.srch-form label{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+}
+.input-cont{
+  display: grid;
+  width: 20%;
+  height: 70px;
+  border-radius: 1%;
+  border: none;
+  outline: none;
+}
+.input-cont select{
+  font-size: 15px;
+  padding-left: 3%;
+}
+.srch-container button{
+}
+.srch-container .search-btn{
+  width: 10%;
+  padding: 11px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+/* .input-cont input{
+  
+}
+.search-btn {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.search-btn:hover {
+  background-color: #0056b3;
+}  */
+/* .srch-container .srch-form {
+  margin: 0 50px;
+  padding: 0px;
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  font-family: sans-serif;
+} */
+/* srch-container label{
+  margin: 0;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.input-cont {
+  display: flex;
+} */
+/* .srch-container .input-cont{
+  margin: 0;
+  padding: 0;
+}
+.srch-container .input-cont input{
+  border-radius: 4px;
+  padding-left: 8px;
+  height: 30px;
+  font-size: 18px;
+  font-family: sans-serif;
+  border: none;
+  outline: none;
+}
+.srch-container button{
+  border-radius: 1.5rem;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  margin-left: 0;
+  color: #fff;
+  background-color: #2888E8FF;
+  padding:5px;
+  font-weight:bold;
+  border:none;
+  cursor: pointer;
+} */
+/* .srch-container label{
+  margin: 0;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.flight-search label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.flight-search select,
+.flight-search input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
